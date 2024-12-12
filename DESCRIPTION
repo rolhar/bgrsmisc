@@ -1,0 +1,23 @@
+Package: bgrsmisc
+Type: Package
+Title: Misc Methods and Functions for Soil Data Analysis
+Version: 0.0.1-1
+Authors@R: 
+    c(person(given = "Roland",
+             family = "Harhoff",
+             role = c("aut", "cre"),
+             email = "roland.harhoff@bgr.de"))
+Description: More about what it does. Functions and methods used by more than one analysis package.
+  Used in package bgrsqr and so on.
+Depends: R (>= 3.6.0)
+Imports: methods
+Suggests: knitr, rmarkdown, tinytest
+VignetteBuilder: knitr
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
+NeedsCompilation: no
+Packaged: 2024-12-04 08:28:56 UTC; harry
+Author: Roland Harhoff [aut, cre]
+Maintainer: Roland Harhoff <roland.harhoff@bgr.de>
